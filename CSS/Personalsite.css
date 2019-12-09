@@ -1,0 +1,545 @@
+.container1 {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:ghostwhite;  
+}
+
+.rainbow {
+    background-image: url("Images/Explosion.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+}
+
+.title {
+    position: relative;
+    width: 1000px;
+    display: inline-block;
+    font-family: FF Cocon, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+    position: absolute;
+    text-indent: 50px;
+    color: bisque;
+    font-size: px;
+    padding: 50px;
+    letter-spacing: 5px;
+}
+
+.navbar1 ul li a{
+    display: inline;
+    text-decoration: none;
+    padding: 12px 12px;
+    color: white;
+    font-family: serifa, serif;
+    font-size: 15px;
+    background-color: sienna;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 15px;
+    width: 30px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.navbar1 ul li a:after {
+    content: "";
+    background: tan;
+    display: inline;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.navbar1 ul li a:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+
+ul  {
+    list-style-type: none;
+    margin: center;
+    padding: 5px;
+    background-color: tan;
+    font-family: serifa, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    bottom: 0.5px;
+    position: relative;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: serifa, serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 26px;
+    background-color: darkcyan;
+    text-indent: 50px;  
+    color: white;
+    padding: 15px;
+}
+
+p {
+    font-family: serifa;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+.aboutme {
+    padding: 40px;
+}
+
+.socialmedia {
+    padding: 40px;
+}
+
+.chip1  {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: rgb(130, 154, 255, 0.4);
+    font-family: serifa, serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.chip1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.chip1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.chip1:hover span {
+    padding-right: 25px;
+}
+
+.chip1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.chip1 img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.chip2 {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: rgb(130, 154, 255, 0.4);
+    font-family: serifa, serif; 
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.chip2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.chip2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.chip2:hover span {
+    padding-right: 25px;
+}
+
+.chip2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.chip2 img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%
+}
+
+.chip3  {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: rgb(130, 154, 255, 0.4);
+    font-family: serifa, serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.chip3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.chip3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.chip3:hover span {
+    padding-right: 25px;
+}
+
+.chip3:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.chip3 img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.chip4  {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: rgb(130, 154, 255, 0.4);
+    font-family: serifa, serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.chip4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.chip4 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.chip4:hover span {
+    padding-right: 25px;
+}
+
+.chip4:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.chip4 img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2 {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ghostwhite;  
+}
+
+.current1 {
+    border: 5px solid ghostwhite;
+}
+
+.navbar2 ul li a{
+    display: inline;
+    text-decoration: none;
+    padding: 12px 12px;
+    color: white;
+    font-family: serifa, serif;
+    font-size: 15px;
+    background-color: sienna;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    top: 15px;
+    width: 30px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.navbar2 ul li a:after {
+    content: "";
+    background: tan;
+    display: inline;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.navbar2 ul li a:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+
+ul2  {
+    list-style-type: none;
+    margin: center;
+    padding: 5px;
+    background-color: tan;
+    font-family: serifa, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    bottom: 0.5px;
+    position: relative;
+}
+
+
+
+.photos {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.photo1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+.photo2 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+.photo3 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+.photo4 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+.photo5 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+.photo6 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+.photo7 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+.photo8 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;  
+}
+
+
+
+.container3 {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ghostwhite;
+}
+
+.navbar3 ul li a{
+    display: inline;
+    text-decoration: none;
+    padding: 12px 12px;
+    color: white;
+    font-family: serifa, serif;
+    font-size: 15px;
+    background-color: sienna;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    top: 15px;
+    width: 30px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.navbar3 ul li a:after {
+    content: "";
+    background: tan;
+    display: inline;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.navbar3 ul li a:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+
+ul3  {
+    list-style-type: none;
+    margin: center;
+    padding: 5px;
+    background-color: tan;
+    font-family: serifa, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    bottom: 0.5px;
+    position: relative;
+}
+
+.current2 {
+    border: 5px solid ghostwhite;
+}
+
+.wiki {
+    padding-top: 40px;
+}
+
+.subhead {
+    font-family: serifa, serif;
+    background-color: darkseagreen;
+    padding: 10px;
+}
+
+.p1 {
+    font-family: serifa;
+    line-height: 1.8;
+    padding-right: 10px;
+}
+
+.slugwiki {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.small {
+    padding-top: 40px;
+}
+
+.jojisite {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
